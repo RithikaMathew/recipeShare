@@ -1,0 +1,96 @@
+.DetailView {
+  font-family: Avenir, "Century Gothic", sans-serif;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 50px;
+  color: #ffffff;
+  width: 45%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+.DetailView h2,
+p {
+  margin-left: 20px;
+  /* Space below the heading */
+}
+
+.DetailView button {
+
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #99af55;
+}
+
+#up {
+  
+  margin-left: 20px;
+}
+
+
+.DetailView button:hover {
+  background-color: #4c6936;
+}
+
+
+img {
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: flex;
+  align-self: center;
+
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  gap: 10px;
+}
+
+.row1 button {
+  width: 40px;
+  /* Example size */
+  height: 40px;
+  /* Equal to the width for a circle */
+  border-radius: 50%;
+  /* Makes the button round */
+  padding: 10px;
+  /* Adjust padding as needed */
+  border: none;
+  /* Optional: remove if you want a border */
+  display: flex;
+  /* Enables flexbox layout */
+  justify-content: center;
+  /* Centers content horizontally */
+  align-items: center;
+  /* Centers content vertically */
+  background-color: #e1e3e7;
+}
+
+.row1 button:hover {
+  background-color: white;
+  cursor: pointer;
+  /* Cursor appears clickable only when hovering over the button */
+}
+
+.comments {
+  background-color: #57585b;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
